@@ -1,0 +1,26 @@
+{
+  "name": "mar",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nodewebkit": "~0.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodewebkit"
+  },
+  "bin": {
+    "mar": "start.sh"
+  },
+  "window": {
+    "title": "Moo Markdown Editor",
+    "toolbar": false,
+    "frame": true,
+    "width": 1000,
+    "height": 600
+  },
+  "main": "index.html",
+  "author": "",
+  "license": "ISC"
+}
