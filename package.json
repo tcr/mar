@@ -2,9 +2,11 @@
   "name": "mar-editor",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
-    "nodewebkit": "0.8.5"
+    "nodewebkit": "0.8.5",
+    "marked": "~0.3.2",
+    "highlight.js": "~8.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -20,7 +22,6 @@
     "width": 1000,
     "height": 600
   },
-  "main": "index.html",
   "author": "",
   "license": "ISC"
 }
