@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.25
+3 info using node@v0.10.18
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/tim/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+12 verbose folder .
+13 info prepublish mar@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/tim/.npm/1f1177db-tar.lock
+16 silly lockFile ab871037-6445-0-09616031288169324-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+17 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz /Users/tim/.npm/ab871037-6445-0-09616031288169324-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile ab871037-6445-0-09616031288169324-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+21 silly lockFile ab871037-6445-0-09616031288169324-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+22 verbose tar unpack /var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+23 silly lockFile bd74a3a8-6445-0-09616031288169324-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package
+24 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package /Users/tim/.npm/bd74a3a8-6445-0-09616031288169324-package.lock
+25 silly lockFile ab871037-6445-0-09616031288169324-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+26 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz /Users/tim/.npm/ab871037-6445-0-09616031288169324-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry index.html
+31 silly gunzTarPerm extractEntry start.sh
+32 silly lockFile bd74a3a8-6445-0-09616031288169324-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package
+33 silly lockFile bd74a3a8-6445-0-09616031288169324-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package
+34 silly lockFile ab871037-6445-0-09616031288169324-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+35 silly lockFile ab871037-6445-0-09616031288169324-tmp-tgz tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/tmp.tgz
+36 verbose tar pack [ '/Users/tim/.npm/mar/0.0.0/package.tgz',
+36 verbose tar pack   '/var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package' ]
+37 verbose tarball /Users/tim/.npm/mar/0.0.0/package.tgz
+38 verbose folder /var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package
+39 silly lockFile bd74a3a8-6445-0-09616031288169324-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package
+40 verbose lock tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package /Users/tim/.npm/bd74a3a8-6445-0-09616031288169324-package.lock
+41 silly lockFile 197d1a50-rs-tim-npm-mar-0-0-0-package-tgz tar:///Users/tim/.npm/mar/0.0.0/package.tgz
+42 verbose lock tar:///Users/tim/.npm/mar/0.0.0/package.tgz /Users/tim/.npm/197d1a50-rs-tim-npm-mar-0-0-0-package-tgz.lock
+43 silly lockFile bd74a3a8-6445-0-09616031288169324-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package
+44 silly lockFile bd74a3a8-6445-0-09616031288169324-package tar:///var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/npm-63662-C-DrAG_H/1395669106445-0.09616031288169324/package
+45 silly lockFile 197d1a50-rs-tim-npm-mar-0-0-0-package-tgz tar:///Users/tim/.npm/mar/0.0.0/package.tgz
+46 silly lockFile 197d1a50-rs-tim-npm-mar-0-0-0-package-tgz tar:///Users/tim/.npm/mar/0.0.0/package.tgz
+47 silly lockFile a9244b38-Users-tim-npm-mar-0-0-0-package /Users/tim/.npm/mar/0.0.0/package
+48 verbose lock /Users/tim/.npm/mar/0.0.0/package /Users/tim/.npm/a9244b38-Users-tim-npm-mar-0-0-0-package.lock
+49 silly lockFile a9244b38-Users-tim-npm-mar-0-0-0-package /Users/tim/.npm/mar/0.0.0/package
+50 silly lockFile a9244b38-Users-tim-npm-mar-0-0-0-package /Users/tim/.npm/mar/0.0.0/package
+51 verbose tar unpack /Users/tim/.npm/mar/0.0.0/package.tgz
+52 silly lockFile 14083ceb--Users-tim-npm-mar-0-0-0-package tar:///Users/tim/.npm/mar/0.0.0/package
+53 verbose lock tar:///Users/tim/.npm/mar/0.0.0/package /Users/tim/.npm/14083ceb--Users-tim-npm-mar-0-0-0-package.lock
+54 silly lockFile 197d1a50-rs-tim-npm-mar-0-0-0-package-tgz tar:///Users/tim/.npm/mar/0.0.0/package.tgz
+55 verbose lock tar:///Users/tim/.npm/mar/0.0.0/package.tgz /Users/tim/.npm/197d1a50-rs-tim-npm-mar-0-0-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm extractEntry index.html
+60 silly gunzTarPerm extractEntry start.sh
+61 silly lockFile 14083ceb--Users-tim-npm-mar-0-0-0-package tar:///Users/tim/.npm/mar/0.0.0/package
+62 silly lockFile 14083ceb--Users-tim-npm-mar-0-0-0-package tar:///Users/tim/.npm/mar/0.0.0/package
+63 silly lockFile 197d1a50-rs-tim-npm-mar-0-0-0-package-tgz tar:///Users/tim/.npm/mar/0.0.0/package.tgz
+64 silly lockFile 197d1a50-rs-tim-npm-mar-0-0-0-package-tgz tar:///Users/tim/.npm/mar/0.0.0/package.tgz
+65 verbose chmod /Users/tim/.npm/mar/0.0.0/package.tgz 644
+66 verbose chown /Users/tim/.npm/mar/0.0.0/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'mar',
+69 silly publish   version: '0.0.0',
+69 silly publish   description: '',
+69 silly publish   main: 'index.html',
+69 silly publish   dependencies: { nodewebkit: '~0.8.5' },
+69 silly publish   devDependencies: {},
+69 silly publish   scripts: { start: 'nodewebkit' },
+69 silly publish   bin: { mar: 'start.sh' },
+69 silly publish   window:
+69 silly publish    { title: 'Moo Markdown Editor',
+69 silly publish      toolbar: false,
+69 silly publish      frame: true,
+69 silly publish      width: 1000,
+69 silly publish      height: 600 },
+69 silly publish   author: '',
+69 silly publish   license: 'ISC',
+69 silly publish   readme: 'ERROR: No README data found!',
+69 silly publish   _id: 'mar@0.0.0',
+69 silly publish   dist: { shasum: 'c036113715fd40124a6a407218a7d8e9121c522b' },
+69 silly publish   _from: '.' }
+70 verbose url raw mar
+71 verbose url resolving [ 'https://registry.npmjs.org/', './mar' ]
+72 verbose url resolved https://registry.npmjs.org/mar
+73 info trying registry request attempt 1 at 09:51:46
+74 http PUT https://registry.npmjs.org/mar
+75 http 403 https://registry.npmjs.org/mar
+76 info trying registry request attempt 1 at 09:51:47
+77 http PUT https://registry.npmjs.org/mar
+78 http 403 https://registry.npmjs.org/mar
+79 error publish Failed PUT 403
+80 error Error: forbidden user: tcr not authorized to modify mar
+80 error Deleted: description
+80 error Changed: dist-tags.latest "0.2.2" -> "0.0.0"
+80 error Added: versions.0.0.0
+80 error Changed: readme "\u000a# MAR\u000a\u000aMAR - Message & Reply - RPC library based on message exchange.\u000a\u000a## Quick Examples\u000a\u000aUsage examples can be found [here](http://github.com/esnunes/mar/tree/master/examples) and below.\u000a\u000a### Server\u000a```js\u000avar Server = require('mar').Server;\u000a\u000avar s = new Server(8081);\u000as.on('ping', function(msg) {\u000a  console.log('ping sent at [%s]', new Date(msg.data));\u000a  if (msg.reply) msg.reply(null, new Date().getTime());\u000a});\u000a```\u000a\u000a### Client\u000a```js\u000avar Client = require('mar').Client;\u000a\u000avar c = new Client();\u000ac.on('connect', function ping() {\u000a  c.message('ping', new Date().getTime(), function(err, data) {\u000a    if (err) return console.log(err);\u000a    console.log('pong received at [%s]', new Date(data));\u000a  });\u000a});\u000ac.connect({ host: 'localhost', port: 8081 });\u000a```\u000a\u000a### Server - Authentication\u000a```js\u000avar Server = require('mar').Server;\u000a\u000avar s = new Server(8081);\u000as.on('ping', function(msg) {\u000a  console.log('ping sent at [%s]', new Date(msg.data));\u000a  if (msg.reply) msg.reply(null, new Date().getTime());\u000a});\u000a\u000as.on('mar.auth', function(msg) {\u000a  if (msg.data != 'foobar') return msg.reply('auth denied');\u000a  msg.reply(null, 'auth granted');\u000a});\u000a```\u000a\u000a### Client - Authentication\u000a```js\u000avar Client = require('mar').Client;\u000a\u000avar c = new Client();\u000ac.on('connect', function() {\u000a  c.message('mar.auth', 'foobar', function(err, auth) {\u000a    if (err) return console.log(err);\u000a    console.log(auth);\u000a    ping();\u000a  });\u000a});\u000a\u000afunction ping() {\u000a  c.message('ping', new Date().getTime(), function(err, data) {\u000a    if (err) return console.log(err);\u000a    console.log('pong received at [%s]', new Date(data));\u000a  });\u000a}\u000a\u000ac.connect({ host: 'localhost', port: 8081 });\u000a```\u000a\u000a## Download\u000a\u000aThe source is available for download from\u000a[GitHub](http://github.com/esnunes/mar).\u000aAlternatively, you can install using Node Package Manager (npm):\u000a\u000a    npm install mar\u000a\u000a## Future - TODO\u000a\u000aThere are many thoughts about future features for MAR library. You can find them [here](http://github.com/esnunes/mar/blob/master/TODO.md).\u000a" -> "ERROR: No README data found!"
+80 error Changed: time.modified "2013-08-27T16:26:14.381Z" -> "2014-03-24T13:51:48.163Z"
+80 error Added: time.0.0.0
+80 error Deleted: author
+80 error Deleted: repository
+80 error Deleted: keywords
+80 error Deleted: contributors
+80 error Deleted: bugs
+80 error Added: license
+80 error Added: _attachments: mar
+80 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+80 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+80 error     at Request.EventEmitter.emit (events.js:98:17)
+80 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+80 error     at Request.EventEmitter.emit (events.js:117:20)
+80 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+80 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+80 error     at _stream_readable.js:920:16
+80 error     at process._tickCallback (node.js:415:13)
+81 error If you need help, you may report this *entire* log,
+81 error including the npm and node versions, at:
+81 error     <http://github.com/isaacs/npm/issues>
+82 error System Darwin 13.1.0
+83 error command "node" "/usr/local/bin/npm" "publish"
+84 error cwd /Users/tim/Desktop/moo
+85 error node -v v0.10.18
+86 error npm -v 1.3.25
+87 verbose exit [ 1, true ]
