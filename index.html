@@ -13,8 +13,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/codemirror.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/theme/solarized.min.css">
   <script>
+  var gui = require('nw.gui');
+
+  var fs = require('fs');
+  var path = require('path');
   var marked = require('marked');
   var hljs = require('highlight.js');
+
+  var startmd = '# Hello world\n';
+  var filepath = null;
+  if (gui.App.argv.length > 1) {
+    filepath = path.join(gui.App.argv[0], gui.App.argv[1]);
+    startmd = fs.readFileSync(filepath, 'utf-8');
+  }
+
+  function securesavefile (name, content) {
+    // sync so we don't race with other invocations of securesavefile
+    var tmpname = '/tmp/' + path.basename(name) + '-bkp';
+    console.log(tmpname, name);
+    var err = fs.writeFileSync(tmpname, content, 'utf-8');
+    if (err) { console.error(err); return; }
+    var err = fs.renameSync(tmpname, name);
+    if (err) { console.error(err); return; }
+  }
 
   function update (text, subset) {
   	var output = document.getElementById('output')
@@ -25,11 +46,14 @@
   	$('#output code').each(function(i, e) {
   		$(e).html(hljs.highlight('javascript', e.innerText).value)
   	});
+    if (filepath) {
+      securesavefile(filepath, text);
+    }
   }
 
   $(function () {
   	var myCodeMirror = CodeMirror($('#input')[0], {
-		  value: "# Hello world\n",
+		  value: startmd,
 		  mode:  "markdown",
 		  theme: 'solarized dark',
 		  lineWrapping: true,
